@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "CheckIt",
   description:
     "CheckIt keeps your to-do list simple, clear, and quick to use. Add tasks in seconds, tick them off with a tap, and always know exactly what’s next—no extra fluff, just pure getting-things-done.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
