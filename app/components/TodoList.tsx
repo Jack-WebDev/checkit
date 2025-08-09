@@ -230,7 +230,7 @@ export default function TodoList() {
         </span>
       </div>
 
-      <div className="grid gap-4 sm:gap-5 overflow-y-auto">
+      <div className="grid gap-4 sm:gap-5 overflow-y-auto max-h-[70vh] pr-1">
         {sorted.length === 0 ? (
           <Card className="rounded-2xl">
             <CardContent className="p-6 text-muted-foreground">
