@@ -230,7 +230,7 @@ export default function TodoList() {
         </span>
       </div>
 
-      <div className="grid gap-4 sm:gap-5">
+      <div className="grid gap-4 sm:gap-5 overflow-y-auto">
         {sorted.length === 0 ? (
           <Card className="rounded-2xl">
             <CardContent className="p-6 text-muted-foreground">
@@ -242,7 +242,7 @@ export default function TodoList() {
           sorted.map((t) => (
             <Card
               key={t.id}
-              className="rounded-2xl border border-border/60 bg-card/70 backdrop-blur shadow-sm"
+              className="rounded-2xl border border-border/60 bg-card/70 backdrop-blur shadow-sm "
             >
               <CardHeader className="p-5 pb-3">
                 <div className="flex items-start justify-between gap-3">
